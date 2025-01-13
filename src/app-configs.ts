@@ -34,7 +34,7 @@ const appConfigs = {
     },
     sentry: {
         sentryUrl: "https://3711f3082699411a8716a3221ca1fd9e@sentry.lumigame.com/89",
-        logIdentifier: "MarbleFootBall-Dev",
+        logIdentifier: "MarblePinball-Dev",
         env: "DEV",
     },
     authenticateSettings: {

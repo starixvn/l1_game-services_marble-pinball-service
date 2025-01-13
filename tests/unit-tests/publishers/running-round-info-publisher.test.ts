@@ -10,7 +10,7 @@ describe("RunningRoundInfoPublisher", () => {
     const gameData = stub<GameData>();
 
     beforeEach(() => {
-        publisher = new RunningRoundInfoPublisher("marbleFootball", gameData);
+        publisher = new RunningRoundInfoPublisher("marblepinball", gameData);
         publisher.publishToAllUsers = jest.fn();
     });
 

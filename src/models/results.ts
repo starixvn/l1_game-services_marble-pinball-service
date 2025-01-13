@@ -14,7 +14,7 @@ const ResultSchema = new mongoose.Schema({
     time: { type: Date, default: () => new Date() },
 });
 
-const modelName = IS_DEV_ENV ? "marblefootball_dev_results" : "marblefootball_results";
+const modelName = IS_DEV_ENV ? "marblepinball_dev_results" : "marblepinball_results";
 const Result = mongoose.model(modelName, ResultSchema);
 
 export default Result;

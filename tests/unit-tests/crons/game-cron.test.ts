@@ -210,8 +210,8 @@ describe("GameCron", () => {
             // arrange
             gameCron.gameData.remainingTime = definition.durations.streamingVideo + 1;
             gameCron.gameData.result = {
-                firstHalfVideo: "http://marble-football/watch?v=HH",
-                secondHalfVideo: "http://marble-football/watch?v=AA",
+                firstHalfVideo: "http://marble-pinball/watch?v=HH",
+                secondHalfVideo: "http://marble-pinball/watch?v=AA",
                 firstHalfTimeline: [1, 2, 3],
                 secondHalfTimeline: [4, 5, 6],
             } as any;
@@ -224,8 +224,8 @@ describe("GameCron", () => {
             // assert
             expect(runningRoundInfoPublisher.publishToAllUsers).toHaveBeenCalledWith({
                 videoResult: {
-                    firstHalfVideo: "http://marble-football/watch?v=HH",
-                    secondHalfVideo: "http://marble-football/watch?v=AA",
+                    firstHalfVideo: "http://marble-pinball/watch?v=HH",
+                    secondHalfVideo: "http://marble-pinball/watch?v=AA",
                     firstHalfTimeline: [1, 2, 3],
                     secondHalfTimeline: [4, 5, 6],
                 },

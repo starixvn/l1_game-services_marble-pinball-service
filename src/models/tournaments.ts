@@ -25,7 +25,7 @@ const Schema = new mongoose.Schema<ITournament>({
     time: { type: Date, default: () => new Date() },
 });
 
-const modelName = IS_DEV_ENV ? "marblefootball_dev_tournaments" : "marblefootball_tournaments";
+const modelName = IS_DEV_ENV ? "marblepinball_dev_tournaments" : "marblepinball_tournaments";
 const Tournament = mongoose.model(modelName, Schema);
 
 export default Tournament;

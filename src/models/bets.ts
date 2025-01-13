@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 import { IS_DEV_ENV } from "../constants";
 
-const modelName = IS_DEV_ENV ? "marblefootball_dev_bets" : "marblefootball_bets";
-const tmpModelName = IS_DEV_ENV ? "marblefootball_dev_tmpbets" : "marblefootball_tmpbets";
+const modelName = IS_DEV_ENV ? "marblepinball_dev_bets" : "marblepinball_bets";
+const tmpModelName = IS_DEV_ENV ? "marblepinball_dev_tmpbets" : "marblepinball_tmpbets";
 
 const bet = {
     roundId: { type: Number, required: true },

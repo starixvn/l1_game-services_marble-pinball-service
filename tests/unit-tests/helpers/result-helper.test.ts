@@ -69,8 +69,8 @@ describe("Result Helper", () => {
                 firstHalf: "HH",
                 secondHalf: "AA",
                 overUnderValue: 3.5,
-                firstHalfVideo: "http://marble-football/watch?v=HH",
-                secondHalfVideo: "http://marble-football/watch?v=AA",
+                firstHalfVideo: "http://marble-pinball/watch?v=HH",
+                secondHalfVideo: "http://marble-pinball/watch?v=AA",
                 homeWinsOnDraw: false,
                 penalty: { home: 0, away: 0 },
             };

@@ -3,15 +3,15 @@ import { BET_CHOICES } from "../../src/constants";
 
 describe("gameSettings", () => {
     it("should have the correct id", () => {
-        expect(gameSettings.id).toBe(104);
+        expect(gameSettings.id).toBe(108);
     });
 
     it("should have the correct name", () => {
-        expect(gameSettings.name).toBe("MarbleFootball");
+        expect(gameSettings.name).toBe("MarblePinball");
     });
 
     it("should have the correct configName", () => {
-        expect(gameSettings.configName).toBe("marblefootball");
+        expect(gameSettings.configName).toBe("marblepinball");
     });
 
     it("durations should be in the correct order", () => {

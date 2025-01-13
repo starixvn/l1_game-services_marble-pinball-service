@@ -11,13 +11,13 @@ export default Object.assign(appConfigs, {
     },
     sentry: {
         sentryUrl: "https://3711f3082699411a8716a3221ca1fd9e@sentry.lumigame.com/89",
-        logIdentifier: "MarbleFootBall-integration-test",
+        logIdentifier: "MarblePinball-integration-test",
         env: "DEV",
     },
     database: {
         url: "mongodb://0.0.0.0:27017",
         options: {
-            dbName: "marble-football-test-db",
+            dbName: "marble-pinball-test-db",
             useNewUrlParser: true,
             useUnifiedTopology: true,
             auto_reconnect: true,

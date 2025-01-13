@@ -26,7 +26,7 @@ export default {
     database: {
         url: "mongodb://mongo:27017",
         options: {
-            dbName: "marble-football-test-db",
+            dbName: "marble-pinball-test-db",
             useNewUrlParser: true,
             useUnifiedTopology: true,
             auto_reconnect: true,
@@ -34,7 +34,7 @@ export default {
     },
     sentry: {
         sentryUrl: "https://3711f3082699411a8716a3221ca1fd9e@sentry.lumigame.com/89",
-        logIdentifier: "MarbleFootBall-integration-test-ci",
+        logIdentifier: "MarblePinball-integration-test-ci",
         env: "LOCAL",
     },
     authenticateSettings: {

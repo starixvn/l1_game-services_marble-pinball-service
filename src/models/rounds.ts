@@ -73,7 +73,7 @@ const RoundSchema = new mongoose.Schema<IRound>({
     exchangeRateId: { type: Number, required: true },
 });
 
-const modelName = IS_DEV_ENV ? "marblefootball_dev_rounds" : "marblefootball_rounds";
+const modelName = IS_DEV_ENV ? "marblepinball_dev_rounds" : "marblepinball_rounds";
 const Round = mongoose.model(modelName, RoundSchema);
 
 export default Round;

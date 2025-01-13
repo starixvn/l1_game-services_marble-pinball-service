@@ -1,10 +1,10 @@
 {
-    "name": "marble-football-service",
+    "name": "marble-pinball-service",
     "version": "1.0.0",
     "description": "",
     "repository": {
         "type": "git",
-        "url": "https://git3.nexdev.net/l1/game-services/marble-football-service.git"
+        "url": "https://git3.nexdev.net/l1/game-services/marble-pinball-service.git"
     },
     "author": "",
     "license": "ISC",
